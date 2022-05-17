@@ -36,7 +36,6 @@ img{
 }
 #slider::-webkit-slider-thumb{
     -webkit-appearance: none;
-    display:block;
     height: 40px;
     width: 40px;
     background: url("slider-icon.png"), rgba(255, 255, 255, 0.3);
@@ -44,4 +43,12 @@ img{
     border-radius: 50%;
     background-size: contain;
     cursor: pointer;
+}
+.compare input::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    display:block;
+    width:10px;
+    height:100%;
+    border:1px solid #f5f5f5;
+    background:#5b83dc;
 }
